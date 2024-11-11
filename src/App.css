@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+#container {
+  padding: 16px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +39,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+li {
+  margin-bottom: 8px;
+}
+
+.delete-button {
+  margin-left: 16px;
 }
